@@ -6,15 +6,29 @@ public class PromotionExample {
 	 //작은 형이 큰형으로  변환은 문제가 되지 않는다.
 	 //byte < short < int < long < float < double
 	 
-	 byte bytevalue = 10;
+	 byte mybyte = 1;
+	 short myshort = 2;
+	 int myint = 3;
+	 long mylong = 4;
+	 float myfloat = 5.0f;
+	 double mydouble = 6.0;
 	 
-	 int intvalue = bytevalue;
 	 
-	 System.out.println(intvalue);
+	 myint = myshort;	 
+	 System.out.println(myint);
 	 
-	 int intValue2 = 1230;
-	 double doubleValue = intValue2;
+	 mylong = myint;
+	 System.out.println(mylong);
 	 
-	 System.out.println(doubleValue);
+	 myfloat = mylong;
+	 System.out.println(myfloat);
+	 
+	 mydouble = myfloat;
+	 System.out.println(mydouble);
+	 
+	 myint = 99;
+	 myshort = (short)myint;
+	 System.out.println(myshort);
  }
 }
+
