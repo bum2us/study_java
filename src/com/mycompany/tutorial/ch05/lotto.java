@@ -16,7 +16,7 @@ public class lotto {
 		Random rnd = new Random();
 		
 		while(true) {
-			
+			System.out.println("-");
 			for (int i = 0; i < myLotto.length; i++) {
 				myLotto[i] = rnd.nextInt(45);
 			}
@@ -47,7 +47,7 @@ public class lotto {
 			while(scan.hasNextLine()) {
 				if(myLot.equals(scan.nextLine()))
 					return false;
-			}
+		}
 			
 		} catch (FileNotFoundException e) {
 			System.err.println("에러");
