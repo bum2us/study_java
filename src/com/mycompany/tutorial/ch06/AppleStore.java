@@ -12,5 +12,6 @@ public class AppleStore {
 		Car icar = new Car();
 		System.out.println(icar.name);
 		
+		
 	}
 }
