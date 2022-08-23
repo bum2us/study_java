@@ -2,8 +2,32 @@ package com.mycompany.tutorial.ch06;
 
 public class Car {
 	
-	int a = 1;
-	String name = "장원영";
-	String[] name2 = {"신범수", "홍길동"};
+	String name;
+	String color;
+	int cc;
+	
+	Car()
+	{
+		
+	}
+	
+	Car(String name)
+	{
+		this.name = name;
+	}
+	
+	Car(String name, int cc)
+	{
+		this.name = name;
+		this.cc = cc;
+	}
+	
+	Car(String name, String color, int cc)
+	{
+		this.name = name;
+		this.color = color;
+		this.cc = cc;
+	}
+	
 	
 }
