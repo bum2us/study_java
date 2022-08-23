@@ -4,9 +4,11 @@ public class CarExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Car sm3 = new Car();
+		Carhd hd = new Carhd();
 		
-		System.out.println(sm3.name);
+		for (int i = 0; i < hd.name.length; i++) {
+			System.out.println(hd.name[i]);
+		}
 	}
 
 }
