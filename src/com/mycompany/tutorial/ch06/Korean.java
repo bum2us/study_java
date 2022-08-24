@@ -22,4 +22,10 @@ public class Korean {
 		this.name = name;
 		this.age = age;
 	}
+	
+	static String nationality = "대한민국";
+	
+	static int statictest(int a) {
+		return a + 10;
+	}
 }
