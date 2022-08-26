@@ -1,4 +1,4 @@
-package com.mycompany.tutorial.ch07.second;
+package com.mycompany.tutorial.ch07.no02;
 
 public class Student extends People{
 

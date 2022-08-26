@@ -1,4 +1,4 @@
-package com.mycompany.tutorial.ch07.first;
+package com.mycompany.tutorial.ch07.no01;
 
 public class DmbCellPhone extends CellPhone{
 	
