@@ -21,6 +21,8 @@ public class Zoo {
 		dogB.Sleep(3);
 		dogC.showLeg();
 		dogA.Dead();
+		
+		dogA.Info();
 	}
 
 }
